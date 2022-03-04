@@ -1,0 +1,16 @@
+GET http://localhost:5000/guides
+
+###
+
+POST http://localhost:5000/guides
+Content-Type: application/json
+
+{
+    "id": 101,
+    "firstname": "Bob",
+    "lastname": "Brown"
+}
+
+###
+
+DELETE http://localhost:5000/guides/61f71909f07c9204febd8963

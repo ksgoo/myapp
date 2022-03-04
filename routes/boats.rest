@@ -1,0 +1,31 @@
+GET http://localhost:5000/boats
+
+###
+
+GET http://localhost:5000/boats/61f6e1b1462fcbf0eb8007e4
+
+###
+
+POST http://localhost:5000/boats
+Content-Type: application/json
+
+{
+    "id": 2,
+    "callsign": "A24K",
+    "alias": "Twinkle"
+}
+
+###
+
+PATCH http://localhost:5000/boats/61f701da5314bcc96e57db22
+Content-Type: application/json
+
+{
+    "status": "IN",
+    "guide": ""
+}
+
+###
+
+DELETE http://localhost:5000/boats/61f6ffa8c00a88acf1f712b9
+

@@ -1,0 +1,12 @@
+*~
+*.swp
+*.orig
+
+.env
+
+build/
+node_modules/
+Pods/
+
+.DS_Store
+._*
