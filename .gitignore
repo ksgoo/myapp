@@ -1,6 +1,7 @@
 *~
 *.swp
 *.orig
+*.bak
 
 .env
 
